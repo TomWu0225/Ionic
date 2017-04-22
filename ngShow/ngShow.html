@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app="MyCssModule">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="ngShow.css">
+    <script type="text/javascript" src="js/angular.js"></script>
+    <script type="text/javascript" src="ngShow.js"></script>
+</head>
+<script type="text/javascript">
+	
+</script>
+<body>
+	<div ng-controller="DeathrayMenuController">
+		<button ng-click="toggleMenu()">Toggle Menu</button>
+		<ul ng-show="menuState.show">
+			<li ng-click="stun()">stun</li>
+			<li ng-click="aaa()">aaa</li>
+			<li ng-click="bbb()">bbb</li>
+		</ul>
+	</div>
+</body>
+
+</html>
